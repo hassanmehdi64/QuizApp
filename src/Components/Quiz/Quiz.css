@@ -1,8 +1,9 @@
 .container {
-
   width: 640px;
+  max-width: 70%;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   background: white;
   color: #262626;
   display: flex;
@@ -12,25 +13,30 @@
   padding: 40px 50px;
 }
 
-.container hr{
+.container hr {
   height: 2px;
   background: #707070;
   border: none;
 
 }
 
-.container h1{
-  font-size: 27px;
-  font-weight: 500;
+.container h1 {
+  font-size: 30px;
+  font-weight: 600;
   color: #262626;
 }
 
-.container ul li{
- display: flex;
- align-items: center;
- height: 70px;
- padding-left: 16px;
- border: 1px solid #686868;
+.container h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 16px;
+  border: 1px solid #686868;
   list-style: none;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -39,9 +45,9 @@
 }
 
 
-.container button{
+.container button {
   margin: auto;
-  padding: 30px 100px ;
+  padding: 12px 40px;
   background-color: #553f9a;
   color: white;
   font-size: 25px;
@@ -51,7 +57,22 @@
   cursor: pointer;
 }
 
-.container button:hover{
+.container button:hover {
   background-color: #6a4fb9;
   transform: all ease 0.4s;
+}
+
+.container .index {
+  margin: auto;
+  font-size: 18px;
+}
+
+.container .correct {
+  background-color: #dffff2;
+  border-color: #00d397;
+}
+
+.container .wrong {
+  background-color: #ffdddd;
+  border-color: #ff0000;
 }
